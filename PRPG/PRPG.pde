@@ -58,7 +58,7 @@ boolean[] A1_Pt = new boolean[100];
 
 void setup() {
   size(1080,640,P2D);
-  frameRate(120);
+  frameRate(60);
   surface.setResizable(false);
   loadTextures();
   for(int i=0;i<A1_Pt.length;i++){
